@@ -38,49 +38,6 @@ pip install -r requirements.txt
 
 > Note: Some model also require extra installation please read the error and installing accordingly to each model you are using.
 
-
-Supported Models
-----------------
-BERT
-- google-bert/bert-base-uncased (110M)
-- google-bert/bert-large-uncased (340M)
-
-LLaMA (Meta)
-- meta-llama/Llama-2-7b-hf (7B)
-- meta-llama/Llama-2-13b-hf (13B)
-
-Mamba
-- state-spaces/mamba-130m (130M)
-- state-spaces/mamba-370m (370M)
-- state-spaces/mamba-790m (790M)
-- state-spaces/mamba-1.4b (1.4B)
-- state-spaces/mamba-2.8b (2.8B)
-
-Falcon
-- tiiuae/falcon-7b (7B)
-
-Mistral
-- mistralai/Mistral-7B-v0.1 (7B)
-
-Gemma (Google)
-- google/gemma-2b (2B)
-- google/gemma-2-9b (9B)
-
-Phi (Microsoft)
-- microsoft/phi-2 (2.7B)
-- microsoft/phi-3-small-8k-instruct (7B)
-- microsoft/phi-3-medium-128k (14B)
-
-> Note: Some very large models are commented out due to hardware limitations.
-
-Features
---------
-- Supports multiple public pre-trained models
-- Measure hardware performance with Nvidia SMI/NVML
-- Track energy consumption with CodeCarbon and PyJoules
-- Optional Nsight profiling for GPU-intensive tasks
-- Threaded execution for simultaneous model run and performance report
-
 License
 -------
 This project is licensed under the MIT License. See the LICENSE file for details.
